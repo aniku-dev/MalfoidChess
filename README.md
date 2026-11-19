@@ -4,7 +4,7 @@ MalfoidChess is a material-focused chess engine written in Swift. It communicate
 
 The project has no explicit imports or third-party dependencies. Source files compile together using only Swift's standard library.
 
-Personality commentary is off by default. Enable it with the UCI option **setoption name Commentary value true** or launch with **--commentary**. Enabled lines use UCI's standard **info string** form. Run **MalfoidChess --personality-demo** to print a sample outside UCI mode.
+~~Personality commentary is off by default. Enable it with the UCI option **setoption name Commentary value true** or launch with **--commentary**. Enabled lines use UCI's standard **info string** form. Run **MalfoidChess --personality-demo** to print a sample outside UCI mode.~~
 
 ## Build and run
 
@@ -60,3 +60,6 @@ The custom test runner covers initial-position perft counts through depth three,
 
 This is a small starter engine, not a tournament engine. It has no transposition table, repetition or fifty-move draw handling, tablebases, ponder support, or broad opening book. Its search is shallow and its time management is basic; it can miss tactics and blunder.
 
+## Additional info
+
+I had Codex generate the initial project as a side project for fun, and any additional changes may be done by me or any other willing contributor.
