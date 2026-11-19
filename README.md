@@ -50,7 +50,7 @@ The engine supports uci, isready, ucinewgame, position startpos, position fen, g
 - **UCI.swift** parses commands and flushes each protocol response for GUI clients.
 - **Personality.swift** supplies optional meme-inspired dialogue, disabled unless explicitly enabled.
 
-Material values are pawn 100, knight 320, bishop 330, rook 500, and queen 900 centipawns. If a completed search puts the side to move at -600 centipawns or worse, the engine deliberately chooses a move that leaves its valuable pieces undefended. The quiet opening book remains enabled.
+Material values are pawn 100, knight 320, bishop 330, rook 500, and queen 900 centipawns. If a completed search puts the side to move at -600 centipawns or worse, the engine might deliberately choose a move that leaves its valuable pieces undefended depending on its composure level. The quiet opening book remains enabled.
 
 ## Tests and limits
 
