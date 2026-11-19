@@ -60,4 +60,4 @@ This is a small starter engine, not a tournament engine. It has no transposition
 
 ## Additional info
 
-I had Codex generate the initial project as a side project for fun, and any additional changes may be done by me or any other willing contributor.
+I had Codex generate the initial project as a side project for fun, and any additional changes may be done by me or any other willing contributor. Preferably done with human oversight, this is after all a learning project.
