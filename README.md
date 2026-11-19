@@ -4,8 +4,6 @@ MalfoidChess is a material-focused chess engine written in Swift. It communicate
 
 The project has no explicit imports or third-party dependencies. Source files compile together using only Swift's standard library.
 
-~~Personality commentary is off by default. Enable it with the UCI option **setoption name Commentary value true** or launch with **--commentary**. Enabled lines use UCI's standard **info string** form. Run **MalfoidChess --personality-demo** to print a sample outside UCI mode.~~
-
 ## Build and run
 
 Requires Swift 6 or newer and a working Swift compiler (swiftc).
@@ -33,7 +31,7 @@ swiftc Sources/Chess/*.swift Tests/TestMain.swift -o MalfoidChessTests
 
 ## UCI example
 
-Start the executable and send these commands:
+Start the executable and send these commands as an example:
 
 ~~~text
 uci
